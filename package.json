@@ -1,0 +1,56 @@
+{
+  "name": "payments-management-system",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "run-p type-check \"build-only {@}\" --",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "run-s lint:*",
+    "build-only": "vite build",
+    "dev": "vite",
+    "format": "prettier --write --experimental-cli src/",
+    "lint:eslint": "eslint . --fix --cache",
+    "lint:oxlint": "oxlint . --fix",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --build"
+  },
+  "dependencies": {
+    "vue": "^3.5.27",
+    "vue-router": "^5.0.1",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.9",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-service": "^5.0.9",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "@vue/tsconfig": "^0.8.1",
+    "@vue/vue3-jest": "^27.0.0",
+    "babel-jest": "^27.5.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-oxlint": "~1.42.0",
+    "eslint-plugin-vue": "~10.7.0",
+    "jest": "^27.5.1",
+    "jiti": "^2.6.1",
+    "jsdom": "^28.0.0",
+    "npm-run-all2": "^8.0.4",
+    "oxlint": "~1.42.0",
+    "prettier": "3.8.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-vue-devtools": "^8.0.5",
+    "vue-tsc": "^3.2.4"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "type": "module"
+}
