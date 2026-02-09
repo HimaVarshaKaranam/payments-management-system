@@ -2,7 +2,7 @@
 
 A secure internal fintech dashboard built with **Vue 3**, **TypeScript**, and **Vuex** for managing financial records and team members with full traceability and IST reporting.
 
-## 🚀 Key Features
+## Key Features
 
 - **Dashboard**: High-level monitoring of all transactions with real-time status indicators.
 - **Payment Management**: Complete CRUD flow for transactions with Indian Rupee (INR) formatting.
@@ -11,7 +11,7 @@ A secure internal fintech dashboard built with **Vue 3**, **TypeScript**, and **
 - **Localization**: Native support for `en-IN` locale (Lakhs/Crores numbering) and IST date formats.
 - **Type Safety**: Built with strict TypeScript for bulletproof data integrity.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Vue 3 (Composition API)
 - **State Management**: Vuex (Actions, Mutations, and Getters)
@@ -20,7 +20,7 @@ A secure internal fintech dashboard built with **Vue 3**, **TypeScript**, and **
 - **Testing**: Jest + Vue Test Utils
 - **Bundler**: Vite
 
-## 📥 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -45,7 +45,7 @@ npm run dev
 
 The app will be available at `http://localhost:5173`.
 
-## 🧪 Testing
+## Testing
 
 The project includes unit tests for components and the Vuex store to ensure data integrity.
 
@@ -55,7 +55,7 @@ npm run test:unit
 
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 src/
