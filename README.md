@@ -22,8 +22,9 @@ A secure internal fintech dashboard built with **Vue 3**, **TypeScript**, and **
 
 ## Installation
 
+```
 1. **Clone the repository**:
-   ```bash
+```bash
    git clone <your-repo-link>
    cd payments-management-system
 
