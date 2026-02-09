@@ -1,48 +1,69 @@
-# payments-management-system
+# Payments Management System
 
-This template should help get you started developing with Vue 3 in Vite.
+A secure internal fintech dashboard built with **Vue 3**, **TypeScript**, and **Vuex** for managing financial records and team members with full traceability and IST reporting.
 
-## Recommended IDE Setup
+## 🚀 Key Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Dashboard**: High-level monitoring of all transactions with real-time status indicators.
+- **Payment Management**: Complete CRUD flow for transactions with Indian Rupee (INR) formatting.
+- **User Management**: System to add and organize team members with role-based attributes.
+- **Advanced Filtering**: Filter records by Payment Status or Category (Subscription, Service, Product).
+- **Localization**: Native support for `en-IN` locale (Lakhs/Crores numbering) and IST date formats.
+- **Type Safety**: Built with strict TypeScript for bulletproof data integrity.
 
-## Recommended Browser Setup
+## 🛠️ Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **Framework**: Vue 3 (Composition API)
+- **State Management**: Vuex (Actions, Mutations, and Getters)
+- **Routing**: Vue Router
+- **Language**: TypeScript
+- **Testing**: Jest + Vue Test Utils
+- **Bundler**: Vite
 
-## Type Support for `.vue` Imports in TS
+## 📥 Installation
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+1. **Clone the repository**:
+   ```bash
+   git clone <your-repo-link>
+   cd payments-management-system
 
-## Customize configuration
+```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+2. **Install dependencies**:
+```bash
 npm install
+
 ```
 
-### Compile and Hot-Reload for Development
 
-```sh
+3. **Start the development server**:
+```bash
 npm run dev
+
 ```
 
-### Type-Check, Compile and Minify for Production
 
-```sh
-npm run build
+The app will be available at `http://localhost:5173`.
+
+## 🧪 Testing
+
+The project includes unit tests for components and the Vuex store to ensure data integrity.
+
+```bash
+# Run all tests
+npm run test:unit
+
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## 🏗️ Project Structure
 
-```sh
-npm run lint
+```text
+src/
+├── assets/         # Styles and static assets
+├── components/     # Reusable UI components
+├── router/         # Vue Router configuration
+├── store/          # Vuex store (State, Actions, Mutations)
+├── types/          # TypeScript interfaces and Enums
+└── views/          # Page components (Payments, Users)
+
 ```
